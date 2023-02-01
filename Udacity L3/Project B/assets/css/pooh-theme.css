@@ -1,0 +1,8 @@
+.pooh-theme{
+    --body-color: #141414;
+    --bgIcon: url(../../assets/images/pooh.jpg);
+    --calculator-color: #f8b932;
+    --num-color: #1b7979;
+    --operation-color: #89001c;
+    --h3Icon: url(../../assets/images/h3-pooh.jpg);
+    }

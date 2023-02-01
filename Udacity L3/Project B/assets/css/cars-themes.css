@@ -1,0 +1,8 @@
+.car-theme{
+    --body-color: #141414;
+    --bgIcon: url(../../assets/images/cars.PNG);
+    --calculator-color: #ffd500;
+    --num-color: #0341ae;
+    --operation-color: #72cb3b;
+    --h3Icon: url(../../assets/images/h3-cars.jpg);
+    }

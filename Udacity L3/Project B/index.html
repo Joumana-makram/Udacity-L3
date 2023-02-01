@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Project B/assets/css/style.css">
+    <title>Kidscalc</title>
+</head>
+<div class="info">
+    <h1>Hi Kid, welcome to Kidscalc !</h1>
+    <p id="score"></p>
+    <p id="dataA"></p>
+    <p id="dataB"></p>
+</div>
+<body>
+    <div class="cars-theme">
+   <form action="" id="data">
+    <input type="text" placeholder="Name" id="name" >
+    <input type="number" placeholder="Age" id="age">
+    <select name="" id="theme">
+        <option value="null">--choose-a-theme</option>
+        <option value="pooh">Pooh</option>
+        <option value="dino">Dino</option>
+        <option value="cars">cars</option>
+        <option value="space">Space</option>
+    </select>
+    <input type="submit" value="submit" id="submit">
+   </form> 
+   <div class="calculator-body">
+   <div class="calculator-screen">
+    <h7 id="screen"></h7>
+    </div>
+   <div class="buttons">
+    <div class="operation" id="delete">
+        <button onclick="window.location.reload()">Clear</button>
+       </div>
+       <div class="operation" id="submit">
+        <button onclick="screeningSubmit()">Submit</button>
+       </div>
+    </br>
+   <div class="number">
+    <button onclick="screening()" data-num="1">1</button>
+   </div>
+   <div class="number">
+    <button onclick="screening2()" data-num="2">2</button>
+   </div>
+   <div class="number">
+    <button onclick="screening3()">3</button>
+   </div>
+   <div class="number">
+    <button onclick="screening4()">4</button>
+   </div>
+   <div class="number">
+    <button onclick="screening5()">5</button>
+   </div>
+   <div class="number">
+    <button onclick="screening6()">6</button>
+   </div>
+   <div class="number">
+    <button onclick="screening7()">7</button>
+   </div>
+   <div class="number">
+    <button onclick="screening8()">8</button>
+   </div>
+   <div class="number">
+    <button onclick="screening9()">9</button>
+   </div>
+   <div class="number">
+    <button onclick="screening0()">0</button>
+   </div>
+   </div>
+   <div class="operations">
+   <div class="operation">
+    <button onclick="screeningBigger()">></button>
+   </div>
+   <div class="operation">
+    <button onclick="screeningSmaller()"><</button>
+   </div>
+   <div class="operation">
+    <button onclick="screeningMinus()">-</button>
+   </div>
+   <div class="operation">
+    <button onclick="screeningPlus()" data-num="+">+</button>
+   </div>
+   </div>
+   <div class="operation">
+    <button onclick="screeningEqual()">=</button>
+   </div>
+    </div>
+</div>
+<script src="../Project B/assets/js/app.js"></script>
+
+</body>
+</html>

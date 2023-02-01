@@ -1,0 +1,9 @@
+.dino-theme{
+    --body-color: #141414;
+    --calculator-color: #a0cca1;
+    --num-color: #58a4a9;
+    --operation-color: #dd8945;
+    --bgIcon: url(../../assets/images/dino.jpg);
+    --h3Icon: url(../../assets/images/h3-dino.jpg);
+
+}

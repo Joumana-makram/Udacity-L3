@@ -1,0 +1,8 @@
+.space-theme{
+    --body-color: #141414;
+    --calculator-color: #fff;
+    --num-color: #5f3186;
+    --operation-color: #1b7979;
+    --bgIcon: url(../images/space.PNG);
+    --h3Icon: url(../../assets/images/h3-space.jpg);
+}
