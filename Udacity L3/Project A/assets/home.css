@@ -22,24 +22,24 @@ nav ul{
     display: flex;
     flex-direction: row;
     list-style: none;
-    gap: 10px;
+    gap: 1vw;
     text-align: start;
 }
 nav ul li{
-    padding: 10px;
+    padding: 1vw;
 }
 nav ul li a{
     text-decoration: none;
-    padding: 10px;
+    padding: 1vw;
     color: #fff;
-    font-size: 20px;
+    font-size: 2vw;
     font-family: 'Roboto', sans-serif;
     
 }
 main{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 1vw;
     grid-area: main;
 }
 .middle{
@@ -47,7 +47,7 @@ main{
     flex-direction: row;
 }
 .blog-post{
-   padding: 20px;
+   padding: 2vw;
    border-radius: 10px;
    background-color: #fff;
    margin: 0 auto;
@@ -76,12 +76,12 @@ main{
 footer{
     background-color: #fff;
     border: #4adede solid 10px;
-    font-size: 20px;
+    font-size: 2vw;
     font-family: 'Times New Roman', Times, serif; 
     color: #b7b7b7;
-    padding: 4px;
+    padding: 003vw;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 1vw;
     grid-area: footer;
 
     
@@ -89,7 +89,7 @@ footer{
 aside{
     background-color: #fff;  
     width: 20%;
-    margin-right: 15px;
+    margin-right: 1.5vw;
     grid-area: aside;
 }
 aside a{
@@ -98,17 +98,17 @@ aside a{
 .elements ul{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 1vw;
 }
 
 .elements ul li{
 
-    font-size: 20px;
+    font-size: 2vw;
     color: #4adede;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 500;
-    margin: 30px 0;
-    padding: 10px;
+    margin: 3vw 0;
+    padding: 1vw;
     
 }
 @media screen and (max-width: 425px){
